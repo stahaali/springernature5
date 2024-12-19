@@ -4239,3 +4239,36 @@ strong
 {
     float:right;
 }
+
+/*commonbanner25*/
+
+section.commonbanner.commonbanner25
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/34.webp') no-repeat;
+    background-size: cover;
+}
+section.commonbanner25 .absolute-center
+{
+    top:72%;
+}
+.small-img
+{
+    margin: auto;
+    display: block;
+    max-width: 140px;
+}
+
+/*aboutus-section*/
+
+section.aboutus-section
+{
+    position: relative;
+}
+.abp-1
+{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
