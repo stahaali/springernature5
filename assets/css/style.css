@@ -1237,7 +1237,7 @@ section.product-section .m20
 {
     color:#486a7e;
     font-size:16px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .textgray
 {
@@ -4206,4 +4206,36 @@ strong
     color:#444;
     font-size: 20px;
     font-weight: 600;
+}
+.list-1 ul
+{
+    padding:0px;
+}
+.list-1 ul li
+{
+    list-style:none;
+    display: flex;
+    margin-bottom: 18px;
+}
+.list-1 ul li a
+{
+    text-decoration: none;
+}
+.list-1 ul li i
+{
+    background:#fff;
+    width: 27px;
+    height: 27px;
+    max-width: 27px;
+    min-width: 27px;
+    border-radius: 100px;
+    color:#486a7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.inc-1
+{
+    float:right;
 }
