@@ -635,6 +635,28 @@ section.blog-section .mt20
 {
     margin:20px 0 0;
 }
+.blog-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.blog-wrapper a
+{
+    height: 100%;
+    text-decoration: none;
+}
+.blog-wrapper .right-icon i
+{
+    transition: 0.3s;
+}
+.blog-wrapper:hover .right-icon i
+{
+    color:#fff;
+    background: #1B778F;
+}
 .blog-column
 {
     display: flex;
@@ -647,6 +669,9 @@ section.blog-section .mt20
 .blog-body
 {
     padding:15px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .blog-body p
 {
@@ -727,6 +752,8 @@ section.blog-section.blog-section2 .subheading
 .blog-header img 
 {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 /*social-background*/
@@ -1205,6 +1232,26 @@ section.product-section .m20
 {
     color:#486a7e;
     font-weight: 600;
+}
+.textblue
+{
+    color:#486a7e;
+    font-size:16px;
+    font-weight: 600;
+}
+.textgray
+{
+    color:#444;
+    font-size: 18px;
+    font-weight: 600;
+}
+.signup
+{
+    text-decoration: none;
+    font-family: 'DaytonaPro-Light';
+    color:#1B778F;
+    text-transform: capitalize;
+    font-weight:600;
 }
 
 /*commonbanner2*/
@@ -3980,10 +4027,10 @@ section.privacypolicy-section
 }
 .privacy-list2 ul li .number
 {
-    width: 50px;
-    max-width: 40px;
-    min-width: 40px;
-    height: 40px;
+    width: 32px;
+    max-width: 32px;
+    min-width: 32px;
+    height: 32px;
     background:#ebf1f5;
     color:#486a7e;
     margin-right: 10px;
@@ -3991,7 +4038,7 @@ section.privacypolicy-section
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 .privacy-list ul li
 {
@@ -4019,4 +4066,146 @@ section.termconditions-section
 {
     position: relative;
     padding-top:100px;
+}
+
+/*commonbanner23*/
+
+section.commonbanner.commonbanner23
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/32.webp') no-repeat;
+    background-size: cover;
+}
+section.commonbanner23 .absolute-center
+{
+    top:75%;
+}
+.sdg-wrapper
+{
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+.sdg-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.sdg-wrapper .right-icon i
+{
+    transition: 0.3s;
+}
+.sdg-wrapper:hover .right-icon i
+{
+    background:#183642;
+    color:#fff;
+}
+.sdg-body
+{
+    padding: 20px 20px;
+}
+.sdg-column
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+/*dei-section*/
+
+section.dei-section
+{
+    position: relative;
+}
+.dei-wrapper
+{
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px 20px;
+}
+.dei-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.dei-wrapper .right-icon i
+{
+    transition: 0.3s;
+}
+.dei-wrapper:hover .right-icon i
+{
+    background:#183642;
+    color:#fff;
+}
+.dei-column
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.m20
+{
+    margin-bottom:20px;
+}
+.img-100 img
+{
+    max-width: 100%;
+    width: 100%;
+}
+.img-2
+{
+    max-width: 100px;
+}
+
+/*commonbanner24*/
+
+section.commonbanner.commonbanner24
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/33.webp') no-repeat;
+    background-size: cover;
+}
+section.commonbanner24 .absolute-center
+{
+    top:75%;
+}
+strong
+{
+    font-family: 'DaytonaPro-Regular'; 
+}
+.deipublishing-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+.deipublishing-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.deipublishing-column
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ebf1f5;
+}
+.deipublishing-body
+{
+    padding: 23px 29px;
+}
+.deipublishing-body p
+{
+    color:#444;
+    font-size: 20px;
+    font-weight: 600;
 }
