@@ -4184,7 +4184,6 @@ strong
 {
     display: flex;
     flex-direction: column;
-    height: 100%;
     overflow: hidden;
 }
 .deipublishing-wrapper a
@@ -4196,7 +4195,6 @@ strong
 {
     display: flex;
     flex-direction: column;
-    height: 100%;
     background: #ebf1f5;
 }
 .deipublishing-body
