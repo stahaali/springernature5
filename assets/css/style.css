@@ -1266,6 +1266,10 @@ section.product-section .m20
     font-size: 18px;
     font-weight: 600;
 }
+h4.text-gray.text-gray2.text-white
+{
+    font-size: 20px;
+}
 .signup
 {
     text-decoration: none;
@@ -3065,6 +3069,10 @@ section.commonbanner7 .absolute-center
 {
     border-color: #dfedf2;
 }
+.border-none
+{
+    border: 0px;
+}
 
 /*academiclicense-section*/
 
@@ -3130,6 +3138,18 @@ section.corporatehealth-section .m20
 .background-cgreen
 {
     background:rgb(0, 115, 115);
+}
+.background-lightgreen
+{
+    background:#3dff9e;
+}
+.background-lightgray
+{
+    background:#8cb7bd;
+}
+.background-darkgray
+{
+    background:#3e6167;
 }
 .licence-wcon
 {
@@ -3211,11 +3231,19 @@ section.commonbanner.commonbanner8 .absolute-center
 }
 .background-orange2
 {
-    background:#dc6a00;
+    background:#ff6600;
 }
 .background-blue3
 {
     background: rgb(72, 106, 126);
+}
+.background-blue4
+{
+    background: #4dbffe;
+}
+.background-green
+{
+    background:#b9f000;
 }
 
 /*contactblog-section*/
@@ -4242,6 +4270,10 @@ strong
 {
     text-decoration: none;
 }
+.list-1.list-3 ul li i
+{
+    background:#ebf1f5;    
+}
 .list-1 ul li i
 {
     background:#fff;
@@ -4320,4 +4352,169 @@ section.aboutus-section
     border-radius: 100px;
     width: 150px;
     height: 150px;
+}
+
+/*commonbanner26*/
+
+section.commonbanner.commonbanner26
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/35.webp') no-repeat;
+    background-size: cover;
+}
+section.commonbanner26 .absolute-center
+{
+    top:80%;
+}
+
+/*commonbanner27*/
+
+section.commonbanner.commonbanner27
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/36.webp') no-repeat;
+    background-size: cover;
+}
+section.commonbanner27 .absolute-center
+{
+    top:80%;
+}
+.inreview-column
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background:#ebf1f5;
+}
+.inreview-header
+{
+    padding:15px 10px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-right1
+{
+    float: right;
+}
+.icon-right1 p
+{
+    padding:10px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background: #f6892c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color:#fff;
+    border:2px solid #fff;
+    margin-bottom: 0px;
+}
+.icon-right1 i
+{
+    color:#fff;
+    font-size: 25px;
+}
+.inreview-body
+{
+    padding: 17px 19px;
+}
+
+/*blogpoststrust-section*/
+
+section.blogpoststrust-section
+{
+    position: relative;
+    padding-top:100px;
+}
+.share-icon 
+{
+    display: block;
+    width: fit-content;
+}
+.share-icon.share-icon2
+{
+    display:flex;
+}
+.share-icon.share-icon2 ul
+{
+    margin-left:10px;
+}
+.share-icon.share-icon2 ul li
+{
+    display: inline-block;
+    margin-right:10px;
+}
+.share-icon ul
+{
+    padding:0px;
+}
+.share-icon ul li
+{
+    display: block;
+    list-style: none;
+    margin-bottom:20px;
+}
+.share-icon ul li a
+{
+    text-decoration: none;
+}
+.share-icon ul li i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border:1px solid #486a7e;
+    font-size: 20px;
+    color: #486a7e;
+    transition: 0.3s;
+}
+.share-icon ul li a i:hover
+{
+    border:1px solid transparent;
+    background:#486a7e;
+    color:#fff;
+}
+.gray-scale
+{
+    filter:grayscale(1);
+    border-radius: 200px;
+}
+.border-1
+{
+    border:1px solid #cedbe0;
+}
+.rdiv
+{
+    display:flex;
+    align-items:center;
+}
+.rdiv .rlogo
+{
+    margin-left: 10px;
+    border: 1px solid #486a7e;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.rdiv .rlogo h5
+{
+    text-transform:capitalize;
+    color:#486a7e;
+    margin-bottom:0px;
 }
